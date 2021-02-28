@@ -20,6 +20,6 @@ const fromYanToPound = (yan) => {
     return (yan / 127.5) * 0.8;
 }
 
-console.log(fromDollarToYen(1))
+console.log(fromYanToPound(1))
 
 module.exports = {sum, fromDollarToYen, fromEuroToDollar, fromYanToPound}
